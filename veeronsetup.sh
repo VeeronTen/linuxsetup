@@ -1,13 +1,13 @@
 #!/bin/sh
 echo "i hope you got it through Git :>"
 sudo apt-get update
-apt-get install -y lmms
-apt-get install -y chromium-browser
-apt-get install -y cmake
-apt-get install -y synaptic
-apt-get install -y hardinfo
-apt-get install -y audacity
-apt-get upgrade -y
+sudo apt-get install -y lmms
+sudo apt-get install -y chromium-browser
+sudo apt-get install -y cmake
+sudo apt-get install -y synaptic
+sudo apt-get install -y hardinfo
+sudo apt-get install -y audacity
+sudo apt-get upgrade -y
 
 sudo apt-get clean
 sudo apt-get autoclean
