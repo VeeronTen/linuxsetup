@@ -7,6 +7,15 @@ sudo apt-get install -y cmake
 sudo apt-get install -y synaptic
 sudo apt-get install -y hardinfo
 sudo apt-get install -y audacity
+
+sudo apt-get remove --purge -y gnome-mines
+sudo apt-get remove --purge -y gnome-sudoku
+sudo apt-get remove --purge -y libreoffice*
+sudo apt-get remove --purge -y pidgin
+sudo apt-get remove --purge -y sgt-puzzles
+sudo apt-get remove --purge -y thunderbird
+sudo apt-get remove --purge -y firefox
+
 sudo apt-get upgrade -y
 
 sudo apt-get clean
